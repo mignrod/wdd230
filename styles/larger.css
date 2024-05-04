@@ -9,9 +9,18 @@
 
     nav li {
         width: 100%;
+        display: block;
     }
 
     main h1 {
         grid-column: 1 / 3;
+    }
+
+    #myBtn {
+        display: none;
+    }
+
+    ul.links {
+        display: flex;
     }
 }

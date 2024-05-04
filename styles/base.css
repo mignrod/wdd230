@@ -45,7 +45,6 @@ nav li:hover {
 
 nav ul {
     list-style: none;
-    display: block;
     text-align: center;
 }
 
@@ -116,3 +115,25 @@ footer {
 
 }
 
+#myBtn {
+    padding: 0.5rem 2vw;
+    font-size: 1.25rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+ul.links {
+    display: none;
+}
+
+ul.links.open {
+    display: block;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
