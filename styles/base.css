@@ -12,7 +12,7 @@ body {
     grid-template-columns: 1fr;
 }
 
-header, footer, .card {
+header, footer {
     background-color: rgb(15, 97, 159);
 
 }
@@ -21,7 +21,7 @@ header {
     display: flex;
     font-weight: bold;
     font-size: 1.5rem;
-    color: #c1c1c1;
+    color: #e9e9e9;
     align-items: center;
     justify-content: space-around;
 }
@@ -58,7 +58,9 @@ main {
     padding-top: 1rem;
     display: grid;
     gap: 0.9rem;
-    margin-bottom: 1rem;
+    margin: auto;
+    width: 95%;
+    gap: 1.5rem
 }
 
 main h1 {
@@ -69,21 +71,23 @@ main h1 {
 }
 
 .card {
-    width: 90%;
-    border: 1px solid #c1c1c1;
-    border-radius: 20px;
     margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .card h2 {
     color: white;
     text-align: center;
     padding: 0.5rem;
+    background-color: rgb(15, 97, 159);
+    border-radius: 20px 20px 0 0;
 }
 
 .card ul {
-    background-color: white;
     list-style: none;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #c1c1c1;
 
 }
 
@@ -101,11 +105,14 @@ footer {
     font-size: large;
     text-align: center;
     color: white;
+    font-size: large;
+    font-weight: 700;
     padding: 20px;
 }
 
 #lastModified {
-    color: yellow;
+    color: rgb(255, 255, 0);
     padding: 20px;
+
 }
 
