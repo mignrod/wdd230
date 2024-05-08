@@ -140,7 +140,7 @@ ul.links.open {
 #mode {
     background-color: transparent;
     border-radius: 50%;
-    border: black;
+    border: none;
     color: black;
     font-weight: 700;
     position: fixed;
