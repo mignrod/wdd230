@@ -16,15 +16,15 @@
         width: 100%;
     }
 
-    .social {
+    /* .social {
         margin-left: 40%;
-    }
+    } */
 
     
 }
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
     .social {
         margin-left: 75%;
     }
-}
+} */

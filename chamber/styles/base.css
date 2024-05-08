@@ -37,7 +37,7 @@ hr {
 
 header img {
     align-self: center;
-    z-index: -1;
+    
 }
 
 .log {
@@ -52,12 +52,14 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
-    margin-left: 8rem;
+    margin-right: 1.5rem;
+    align-items: center;
 
 }
 
 header span {
     align-content: center;
+    display: flex;
 }
 
 nav {
