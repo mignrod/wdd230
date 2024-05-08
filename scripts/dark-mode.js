@@ -12,11 +12,13 @@ modeButton.addEventListener("click", () => {
         header.style.background = "rgb(15, 97, 129)";
         footer.style.background = "rgb(15, 97, 129)";
 		modeButton.textContent = "☼";
+		modeButton.style.color = "white";
 	} else {
 		body.style.background = "#eee";
 		body.style.color = "#000";
         header.style.background = "rgb(15, 97, 159)";
         footer.style.background = "rgb(15, 97, 159)";
 		modeButton.textContent = "🌓︎";
+		modeButton.style.color = "black";
 	}
 });
