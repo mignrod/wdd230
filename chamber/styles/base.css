@@ -24,6 +24,7 @@ header {
     display: flex;
     background-color: var(--primary-color);
     justify-content: space-around;
+    height: 5rem;
      
 }
 
@@ -36,6 +37,7 @@ hr {
 
 header img {
     align-self: center;
+    z-index: -1;
 }
 
 .log {
@@ -50,8 +52,12 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
-    margin-left: 4rem;
+    margin-left: 8rem;
 
+}
+
+header span {
+    align-content: center;
 }
 
 nav {
@@ -84,6 +90,19 @@ ul {
 main {
     display: block;
     text-align: center;
+}
+
+.title {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 5vw;
+
 }
 
 .hero {
