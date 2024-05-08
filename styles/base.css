@@ -137,7 +137,7 @@ ul.links.open {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-#mode {
+.mode {
     background-color: transparent;
     border-radius: 50%;
     border: none;
