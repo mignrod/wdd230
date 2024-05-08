@@ -95,7 +95,6 @@ main h1 {
 }
 
 #weather {
-    background-color: white;
     text-align: center;
     height: 100%;
 }
@@ -136,4 +135,16 @@ ul.links.open {
 
 .active {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+#mode {
+    background-color: transparent;
+    border-radius: 50%;
+    border: black;
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
 }
