@@ -1,0 +1,32 @@
+main {
+    width: 400px;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-weight: 600;
+    background-color: antiquewhite;
+}
+
+img {
+    width: 100%;
+    background-color: rgb(116, 110, 110);
+    display: block;
+    margin: 5px;
+    animation: fade 4s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
