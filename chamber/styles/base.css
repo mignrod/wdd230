@@ -247,3 +247,25 @@ border-right: none;
 .left-border {
 border-left: 1px solid dimgray;
 }
+
+.sidebar {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        "sidebar content";
+}
+
+aside {
+    grid-area: sidebar;
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.population, .turist, .calendar {
+    border: 1px solid black;
+    padding: 0.5rem;
+    
+}
+
