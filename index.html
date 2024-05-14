@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile-photo.jpg" alt="Miguelangel Rodriguez Profile Photo" width="75" height="100">
+        <img src="images/profile-photo.webp" alt="Miguelangel Rodriguez Profile Photo" width="75" height="100">
         <span>Miguelangel Rodriguez</span>
         <button id="mode" class="mode">🌓︎</button>
     </header>
@@ -36,6 +36,15 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/caracas_temple_small.webp" media="(max-width: 400px)">
+                <img src="images/caracas_temple_large.webp" alt="Caracas Temple, Venezuela" width="960" height="480" loading="lazy">
+            </picture>
+            <div class="hero-label">
+                <p>Caracas Temple, Venezuela</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -50,10 +59,18 @@
         </section>
         <section class="card">
             <h2>Information</h2>
-            <p id="weather">Info about weather</p>
+            <div id="weather">
+                <p>Info about weather</p>
+                <p class="visit"></p>
+            </div>
+            
 
         </section>
     </main>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31427.3299430387!2d-69.33643330367592!3d10.064939123657037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sve!4v1715650388748!5m2!1sen!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
     <footer>
         <p><span id="date"></span> Miguelangel Rodriguez 🇻🇪</p>
         <p id="lastModified"></p>
@@ -62,5 +79,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/ham-menu.js"></script>
     <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/numOfVisit.js"></script>
 </body>
 </html>
