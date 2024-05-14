@@ -180,3 +180,7 @@ ul.links.open {
 .map iframe {
     width: 100%;
 }
+
+.visit {
+    padding: 1rem;
+}

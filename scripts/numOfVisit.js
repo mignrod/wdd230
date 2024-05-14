@@ -11,4 +11,4 @@ if(numVisits !== 0) {
 
 numVisits++;
 
-localStorage.getItem('visitStorage', numVisits);
+localStorage.setItem('visitStorage', numVisits);
