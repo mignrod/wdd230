@@ -19,13 +19,13 @@
 </head>
 <body>
     <header>
-        <img src="http://placehold.co/50x50" alt="Logo">
+        <img loading="lazy" src="http://placehold.co/50x50" alt="Logo">
         <div>
             <ul class="social">
-                <li><a href=""><img src="http://placehold.co/30x30" alt=""></a></li>
-                <li><a href=""><img src="http://placehold.co/30x30" alt=""></a></li>
-                <li><a href=""><img src="http://placehold.co/30x30" alt=""></a></li>
-                <li><a href=""><img src="http://placehold.co/30x30" alt=""></a></li>
+                <li><a href=""><img loading="lazy" src="http://placehold.co/30x30" alt="An image"></a></li>
+                <li><a href=""><img loading="lazy" src="http://placehold.co/30x30" alt="An image"></a></li>
+                <li><a href=""><img loading="lazy" src="http://placehold.co/30x30" alt="An image"></a></li>
+                <li><a href=""><img loading="lazy" src="http://placehold.co/30x30" alt="An image"></a></li>
             </ul>
         
             <button class="log"><i class="fa fa-user-circle-o" aria-hidden="true"></i></button>
@@ -46,22 +46,55 @@
     </nav>
 
     <main>
+        <div class="visit"></div>
         <div class="sidebar">
             <aside>
                 <section class="population">
-                    <h2>Barquisimeto Population 2024</h2>
+                    <h3>Barquisimeto Population 2024</h3>
                     <p>Barquisimeto's 2024 population is now estimated at 1,267,872. In 1950, the population of Barquisimeto was 126,840. Barquisimeto has grown by 13,680 in the last year, which represents a 1.09% annual change.</p>
                 </section>
                 <section class="turist">
-                    <h2>Flower of Hannover</h2>
-                    <img src="https://placehold.co/100x100" alt="Flower of Hannover" loading="lazy">
+                    <h3>Flower of Hannover</h3>
+                    <img loading="lazy" src="images/hannover.webp" alt="Flower of Hannover" width="120" height="100">
+                    <p>By Venezuelan architect Fruto Vivas with a system of 16 petals that can open and close.</p>
                 </section>
                 <section class="calendar">
-                    <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&ctz=America%2FCaracas&bgcolor=%23ffffff&showPrint=0&showTz=0&showCalendars=0&showTabs=0&showTitle=0&hl=en&src=NjYyMDZlYmNlNTdiZTJjMTUzZjhjNTU2MDYxNzRhMGI4ZTk0Y2VmYTU0YjljNTcxZjJhNTBiNmJlZjgxYzA1YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border:solid 1px #777" width="200" height="200" frameborder="0" scrolling="no" loading="lazy"></iframe>
+                    <h3>Calendar</h3>
+                    <iframe loading="lazy" src="https://calendar.google.com/calendar/embed?height=200&wkst=1&ctz=America%2FCaracas&bgcolor=%23ffffff&showPrint=0&showTz=0&showCalendars=0&showTabs=0&showTitle=0&hl=en&src=NjYyMDZlYmNlNTdiZTJjMTUzZjhjNTU2MDYxNzRhMGI4ZTk0Y2VmYTU0YjljNTcxZjJhNTBiNmJlZjgxYzA1YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border:solid 1px #777" width="200" height="200" frameborder="0" scrolling="no"></iframe>
                 </section>
             </aside>
+            <div class="content">
+                <h3>Discover Barquisimeto</h3>
+                <div class="image">
+                    <img loading="lazy" src="images/barquisimeto.webp" alt="Barquisimeto Welcome Letters" width="300" height="250">
+                    <p class="label">Barquisimeto</p>
+                </div>
+                <div class="image">
+                    <img loading="lazy" src="images/barquisimeto-2.webp" alt="Nights of Barquisimeto" width="300" height="250">
+                    <p class="label">Barquisimeto Nights</p>
+                </div>
+                <div class="image">
+                    <img loading="lazy" src="images/obelisco.webp" alt="Obelisco" width="300" height="250">
+                    <p class="label">Obelisco</p>
+                </div>
+                <div class="image">
+                    <img loading="lazy" src="images/sun-monument.webp" alt="Monument to the Sun" width="300" height="250">
+                    <p class="label">Sun Monument</p>
+                </div>
+                <div class="image">
+                    <img loading="lazy" src="images/cathedral.webp" alt="Barquisimeto Cathedral" width="300" height="250">
+                    <p class="label">Cathedral</p>
+                </div>
+                <div class="image">
+                    <img loading="lazy" src="images/jar.webp" alt="Barquisimeto Jar 'Tinaja'" width="300" height="250">
+                    <p class="label">"Tinaja"</p>
+                </div>
+                <div class="image">
+                    <img loading="lazy" src="images/hannover-med.webp" alt="Flower of Venezuela or Hannover" width="300" height="250">
+                    <p class="label">Flower of Hannover</p>
+                </div>
+            </div>
         </div>
-
         
     </main>
 
@@ -74,5 +107,6 @@
     </footer>
 
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/numOfVisit.js"></script>
 </body>
 </html>

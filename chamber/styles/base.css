@@ -251,21 +251,66 @@ border-left: 1px solid dimgray;
 .sidebar {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "sidebar content";
 }
 
 aside {
     grid-area: sidebar;
-    display: grid;
+    grid-column: 1 / 2;
+    display: block;
     gap: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
+    min-width: 220px;
 }
 
 .population, .turist, .calendar {
     border: 1px solid black;
-    padding: 0.5rem;
+    padding: 0.6rem;
     
 }
+
+.content {
+    grid-area: content;
+    grid-column: 2 / 4;
+    border:  1px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+.content img {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+
+.image {
+    display: flex;
+}
+
+.label {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 16px;
+    border: 1px solid rgba(0,0,0,.5);
+    background: radial-gradient(#fff, #b8e0c7);
+    opacity: 0.8;
+    box-shadow: 0 0 3rem #dfcdcd;
+    padding: 4px;
+}
+
+.visit {
+    margin: 1rem;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+
 
