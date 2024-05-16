@@ -38,12 +38,21 @@ header img {
     
 }
 
+button.log {
+    align-self: center;
+}
+
 .log {
     background-color: var(--primary-color);
     color: var(--background-color);
     border: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
+}
+
+.log img {
+    height: 30px;
+    width: 30px;
 }
 
 .social {
