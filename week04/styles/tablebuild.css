@@ -1,0 +1,61 @@
+:root {
+    --headerColor: white;
+    --backColor1: black;
+    --backColor2: rgb(95, 94, 94);
+    --backColor3: rgb(235, 243, 245);
+    --border: thin solid rgb(139, 138, 138);
+
+}
+
+body {
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid var(--backColor1);
+}
+
+caption {
+    caption-side: bottom;
+    margin-top: 1rem;
+}
+
+thead tr:first-child, .empty {
+    background-color: var(--backColor1);
+    color: var(--headerColor);
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+
+th:first-child {
+    padding: 1rem;
+}
+
+thead tr:last-child th + th {
+    background-color: var(--backColor2);
+    color: var(--headerColor);
+    font-size: 1rem;
+    padding: 10px;
+    border-right: var(--border);
+    
+}
+
+tbody tr td {
+    padding: 0.6rem;
+    border: var(--border);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--backColor3);
+}
+
+tbody tr td:first-child {
+    font-weight: bolder;
+}
