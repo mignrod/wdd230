@@ -184,3 +184,13 @@ ul.links.open {
 .visit {
     padding: 1rem;
 }
+
+a:active, a:link, a:visited {
+    color: navy;
+
+}
+
+a:hover {
+    color: purple;
+    
+}
