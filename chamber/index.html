@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="#">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -27,7 +26,7 @@
                 <li><a href=""><img src="http://placehold.co/30x30" alt=""></a></li>
             </ul>
         
-            <button class="log"><i class="fa fa-user-circle-o" aria-hidden="true"></i></button>
+            <button class="log"><i><img loading="lazy" src="images/user.png" alt="User" width="30" height="30"></i></button>
         </div>
 
     </header>
@@ -35,7 +34,7 @@
     <nav>
         <button id="menu"></button>
         <ul class="links" id="hidden-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="">link</a></li>
             <li><a href="">link</a></li>
@@ -45,8 +44,10 @@
     </nav>
 
     <main>
-        <h1 class="title">Barquisimeto Chamber of Commerce</h1>
-        <img class="hero" src="https://placehold.co/540x200" alt="Hero Image for Barquisimeto Chamber of Commerce">
+        <div class="htitle">
+            <h1 class="title">Barquisimeto - Chamber of Commerce</h1>
+            <img class="hero" src="https://placehold.co/540x200" alt="Hero Image for Barquisimeto Chamber of Commerce">
+        </div>
         <button>Jois Us!</button>
         <div class="current-events">
             <div>
@@ -110,9 +111,10 @@
 
     <footer>
         <p><span id="date"></span> Barquisimeto Chamber of Commerce</p>
+        <p class="contact">&#9742; 123-555-6789</p>
         <p class="name">Miguelangel Rodriguez</p>
         <p>WDD 230 Project</p>
-        <button class="top" id="top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></button>
+        <button class="top" id="top"><i>&#9650;</i></button>
         <p id="lastModified"></p>
     </footer>
 

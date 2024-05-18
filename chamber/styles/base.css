@@ -101,6 +101,9 @@ main {
     text-align: center;
 }
 
+.htitle {
+    position: relative;
+}
 .title {
     position: absolute;
     top: 150px;
@@ -178,6 +181,8 @@ footer {
 
 footer p {
     margin: 2px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .top {
