@@ -161,6 +161,7 @@ ul.links.open {
 
 .hero img {
     width: 100%;
+    height: min-content;
 }
 
 .hero-label {
