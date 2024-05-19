@@ -92,3 +92,11 @@
     color: red;
     padding-top: 2px;
 }
+
+.myform input:required {
+    border-right: solid 3px red;
+}
+
+.myform input:required:valid {
+    border-right: solid 3px green;
+}
