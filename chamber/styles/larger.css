@@ -31,5 +31,9 @@
     .content img:hover  {
         box-shadow: 0 0 50px #57bbe0;
     }
+
+    .sidebar {
+        display: grid;
+    }
     
 }
