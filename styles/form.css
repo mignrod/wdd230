@@ -43,7 +43,6 @@
 
 .myform input[type="range"] {
     max-width: 300px;
-    padding: .5rem;
     
 }
 
@@ -68,14 +67,14 @@
 
 #rangevalue, .rate {
     color: navy;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
 }
 
 #rangevalues {
     display: flex;
-    margin: 0 0 0 12px;
-    width: 290px;
+    margin: 0 0 0 13.5px;
+    width: 288px;
     
 }
 
