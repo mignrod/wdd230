@@ -1,0 +1,94 @@
+:root {
+    --validColor: green;
+    --badColor: red;
+    --border: thin solid #999;
+    --titleColor: rgb(16, 16, 162);
+    --labelColor: rgb(133, 45, 45);
+    --formBackground: #eee;
+
+}
+
+.myform fieldset {
+    border: var(--border);
+    border-radius: 6px;
+    margin: 2rem 0;
+    padding: 1rem;
+
+}
+
+.myform legend {
+    color: var(--titleColor);
+    padding: 0 .5rem;
+}
+
+.myform label {
+    display: block;
+    color: var(--labelColor);
+    padding-top: 1rem;
+}
+
+.myform input[type="text"],
+.myform input[type="password"],
+.myform input[type="email"],
+.myform input[type="range"] {
+    display: block;
+    background-color: var(--formBackground);
+    border: var(--border);
+    border-radius: 6px;
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem;
+    color: #666;
+}
+
+.myform input[type="range"] {
+    max-width: 300px;
+    padding: .5rem;
+    
+}
+
+.myform input[type="submit"] {
+    margin: -1rem 1rem 2rem 1rem;
+    width: 98%;
+    max-width: 400px;
+    padding: 0.8rem;
+    border: var(--border);
+    border-radius: 6px;
+    background-image: linear-gradient(rgb(46, 145, 184), rgb(25, 25, 196));
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.myform input[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #999;
+    
+}
+
+#rangevalue, .rate {
+    color: navy;
+    font-size: 1.2rem;
+    
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 12px;
+    width: 290px;
+    
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+#rating {
+    width: 290px;
+
+}
+
+#error {
+    color: red;
+    padding-top: 2px;
+}
