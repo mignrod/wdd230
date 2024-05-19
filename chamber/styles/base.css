@@ -73,10 +73,12 @@ nav {
     background-color: var(--secondary-color);
     display: block;
     
+    
 }
 
 ul {
     list-style: none;
+    
 }
 
 .links {
@@ -86,6 +88,9 @@ ul {
     margin: 0;
 }
 
+.links a {
+    color: white;
+}
 #hidden-links {
     padding: 0.5rem;
     display: none;
