@@ -100,3 +100,16 @@
 .myform input:required:valid {
     border-right: solid 3px green;
 }
+
+.correct-message {
+    margin: 3rem auto;
+    border: var(--border);
+    padding: 3rem;
+    max-width: 400px;
+    text-align: center;
+}
+
+.correct-message h2 {
+    color: var(--validColor);
+    margin-bottom: 1rem;
+}
