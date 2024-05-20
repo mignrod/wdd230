@@ -356,7 +356,7 @@ aside {
 .form1 label {
     display: block;
     padding-top: 1rem;
-    color: var(--accent2-color);
+    color: var(--accent3-color);
 }
 
 .form1 input[type="text"],
@@ -396,5 +396,19 @@ aside {
     font-weight: 700;
 }
 
+.thank-msg {
+    margin: auto;
+    max-width: 600px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
+.thank-msg h4 {
+    width: 45%;
+    margin: auto;
+}
+
+.thank-msg h2 {
+    color: var(--accent3-color);
+}
 
