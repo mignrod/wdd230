@@ -334,5 +334,67 @@ aside {
     font-size: larger;
 }
 
+.form1 {
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.form1 fieldset {
+    border: thin solid #999;
+    margin: 2rem 0;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+}
+
+.form1 legend {
+    color: var(--primary-color);
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+.form1 label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--accent2-color);
+}
+
+.form1 input[type="text"],
+.form1 input[type="tel"],
+.form1 input[type="email"],
+.form1 textarea {
+    background-color: #eee;
+    display: block;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    border: thin solid #666;
+    border-radius: 10px;
+}
+
+.form1 textarea {
+    box-sizing: content-box;
+    resize: none;
+
+}
+
+.form1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.form1 input[type="submit"] {
+    margin: -1rem 2% 2rem 2%;
+    width: 96%;
+    max-width: 400px;
+    box-sizing: content-box;
+    padding: 0.8rem;
+    border: thin solid #666;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(var(--accent2-color), var(--accent1-color));
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 
 
