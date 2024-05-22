@@ -4,10 +4,30 @@
     "peopleInFamily": 5,
     "visited": true,
     "members": [
-      "Miguelangel Rodriguez",
-      "Maria Anza",
-      "Diego Rodriguez",
-      "Sofia Rodriguez",
-      "Mateo Rodriguez"
-  ]
+        {
+            "name": "Miguelangel Rodriguez",
+            "gender": "Masculine",
+            "birthday": "June 16, 1982"
+        },
+        {
+            "name": "Maria Anza",
+            "gender": "Femenine",
+            "birthday": "May 8, 1990"
+        },
+        {
+            "name": "Diego Rodriguez",
+            "gender": "Masculine",
+            "birthday": "Dec 12, 2011"
+        },
+        {
+            "name": "Sofia Rodriguez",
+            "gender": "Femenine",
+            "birthday": "Sep 15, 2013"
+        },
+        {
+            "name": "Mateo Rodriguez",
+            "gender": "Masculine",
+            "birthday": "Mar 9, 2022"
+        }
+    ]
 }
