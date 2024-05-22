@@ -1,0 +1,13 @@
+{
+    "familyName": "Rodriguez Family",
+    "movedToWard": 2017,
+    "peopleInFamily": 5,
+    "visited": true,
+    "members": [
+      "Miguelangel Rodriguez",
+      "Maria Anza",
+      "Diego Rodriguez",
+      "Sofia Rodriguez",
+      "Mateo Rodriguez"
+  ]
+}
