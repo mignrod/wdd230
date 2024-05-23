@@ -104,6 +104,15 @@ main h1 {
     border: 1px solid #c1c1c1;
 }
 
+#weather figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather figure img {
+    padding-right: 0.5rem;
+}
 footer {
     font-size: large;
     text-align: center;

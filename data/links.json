@@ -10,6 +10,14 @@
           {
             "url":"week01/media-query.html",
             "title":"mQueries"
+          },
+          {
+            "url":"https://codepen.io/Miguelangel-Rodr-guez/pen/rNbRXNp",
+            "title":"JS Pen"
+          },
+          {
+            "url":"week01/chamber-site-plan.html",
+            "title":"Chamber Site Plan"
           }
         ]
       },
@@ -18,48 +26,92 @@
         "week": "Week 2",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"week02/design.html",
+            "title":"Desing Principles"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"Media Query"
+            "url":"https://codepen.io/Miguelangel-Rodr-guez/pen/XWQLjqz",
+            "title":"Ham Menu CodePen"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"Media Query"
-          },
-          {
-            "url":"week01/media-query.html",
-            "title":"Media Query"
+            "url":"week02/bom.html",
+            "title":"DOM Manipulation"
           }
         ]
       },
 
       {
-        "week": "Week 1",
+        "week": "Week 3",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"week03/images/landscape.webp",
+            "title":"WebP Image"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url":"week03/lazyload.html",
+            "title":"Lazy Load"
+          },
+          {
+            "url":"week03/responsive-images.html",
+            "title":"Responsive Images"
+          },
+          {
+            "url":"wweek03/bom.html",
+            "title":"Local Storage BOM List"
           }
         ]
       },
 
       {
-        "week": "Week 1",
+        "week": "Week 4",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"https://codepen.io/Miguelangel-Rodr-guez/pen/MWdavqP0",
+            "title":"Pseudo-Class CodePen"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url":"week04/images/screenshot.png",
+            "title":"W3schools Combinator Exercise"
+          },
+          {
+            "url":"week04/tablebuild.html",
+            "title":"Table Build"
+          },
+          {
+            "url":"form-start/index.html",
+            "title":"Form Building"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/Miguelangel-Rodr-guez/pen/mdYEJEe",
+            "title":"Pseudo-Elements CodePen"
+          },
+          {
+            "url":"week05/new-ward-members.json",
+            "title":"JSON Family"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"Fetch API"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Weather API"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 6",
+        "links": [
+          {
+            "url":"",
+            "title":""
           }
         ]
       }
