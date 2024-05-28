@@ -14,7 +14,7 @@
             "address": "26th street 21th Road, CC Cosmos",
             "phone": 4121247892,
             "weburl": "https://cangurovenezuela.com/",
-            "icon": "canguro.webp",
+            "icon": "https://mignrod.github.io/wdd230/chamber/images/canguro.webp",
             "memberLevel": "Gold",
             "area": "Technology"
         },
@@ -23,7 +23,7 @@
             "address": "Av. Venezuela with Av. Bracamonte and Av. Crispulo Benítez. CC Sambil, East, Barquisimeto 3001",
             "phone": 4245315264,
             "weburl": "https://multimaxstore.com/tiendas/multimax-lara/multimax-barquisimeto/",
-            "icon": "canguro.webp",
+            "icon": "https://mignrod.github.io/wdd230/chamber/images/multimax.webp",
             "memberLevel": "Silver",
             "area": "Home"
         },
@@ -32,7 +32,7 @@
             "address": "Street 14th corner 22th Road.",
             "phone": 5013684671,
             "weburl": "https://www.tealca.com/",
-            "icon": "tealca.webp",
+            "icon": "https://mignrod.github.io/wdd230/chamber/images/tealca.webp",
             "memberLevel": "Bronze",
             "area": "Parcels and Shipments"
         },
@@ -41,7 +41,7 @@
             "address": "Av. Venezuela with Av. Bracamonte, East",
             "phone": 4241234548,
             "weburl": "https://daka.tiendasdaka.com/",
-            "icon": "daka.webp",
+            "icon": "https://mignrod.github.io/wdd230/chamber/images/daka.webp",
             "memberLevel": "Gold",
             "area": "Home"
         },
@@ -50,7 +50,7 @@
             "address": "6th Street Av Concordia, East",
             "phone": 4245549408,
             "weburl": "https://www.sizeboutiqueca.com/",
-            "icon": "size.webp",
+            "icon": "https://mignrod.github.io/wdd230/chamber/images/size.webp",
             "memberLevel": "Silver",
             "area": "Clothes"
         },
@@ -59,7 +59,7 @@
             "address": "51th Road and 14C Street",
             "phone": 4245809421,
             "weburl": "https://www.facebook.com/JLSolucionesTecnologicas/",
-            "icon": "jl.webp",
+            "icon": "https://mignrod.github.io/wdd230/chamber/images/jl.webp",
             "memberLevel": "Bronze",
             "area": "Technology"
         }
