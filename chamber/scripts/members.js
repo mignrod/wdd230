@@ -33,7 +33,6 @@ const displayMemberData = (companies) => {
         // Company Logo
         logo.setAttribute('src', company.icon);
         logo.setAttribute('alt', `${company.name} Logo`);
-        logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '400');
         logo.setAttribute('height', '200');
         logo.setAttribute('aspect-ratio', '2:1');
