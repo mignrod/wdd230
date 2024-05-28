@@ -37,16 +37,33 @@
     }
 
     .grid {
-        max-width: 80%;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 1.5rem;
-	    align-items: center;
+     
     }
 
     .grid section {
         box-shadow: 0 2px 4px #222;
-        height: auto;
+        height: -webkit-fill-available;
+
+    }
+
+    .list {
+        width: 85%;
+        font-size: small;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: repeat(5, calc(95%/7)) 1fr;
+        gap: 0.5rem;
+        margin: auto;
+        padding: 1.5rem;
+        align-items:center ;
+        
+    }
+
+    .list section a {
+        overflow-x: auto;
     }
     
 }

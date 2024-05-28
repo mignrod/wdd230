@@ -419,21 +419,21 @@ aside {
 }
 
 .grid {
-    display: block;
-    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    width: 70%;
     margin: 1rem auto 2.5rem auto;
 }
 
 .grid section {
     text-align: center;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
+    padding: .5rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 8px 6px -6px #222;
 }
 
 .grid img {
-    box-sizing: border-box;
-    width: 80%;
+    width: 70%;
     height: fit-content;
 }
 
@@ -441,6 +441,72 @@ aside {
     display: none;
 }
 
-.grid p {
+.grid section p {
     padding: 2px;
+    
+}
+
+.grid section a {
+    color:  var(--primary-color);
+    overflow-wrap: break-word;
+}
+
+.grid a:hover {
+    color: navy;
+}
+
+.grid a:visited::after {
+    color: var(--primary-color);
+}
+
+.display-buttons {
+    letter-spacing: 1rem;
+    
+}
+
+.display-buttons button {
+    width: 25px;
+    height: 25px;
+    color: var(--accent3-color);
+    background-color: var(--background-color);
+    border: thin solid var(--secondary-color);
+    cursor: pointer;
+    font-size: large;
+    
+}
+
+.list {
+    width: 270px;
+    margin: auto;
+    text-align: left;
+    font-size: small;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.list img {
+    display: none;
+}
+
+.list section {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem;
+
+}
+
+.list section a {
+    color:  var(--primary-color);
+    overflow-wrap: break-word;
+}
+
+.list section:nth-child(odd) {
+    background-color: #eaf1f6;
+}
+
+.list a:hover {
+    color: navy;
+}
+
+.list a:visited::after {
+    color: var(--primary-color);
 }

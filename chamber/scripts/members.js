@@ -52,9 +52,9 @@ const displayMemberData = (companies) => {
         companyCard.appendChild(name);
         companyCard.appendChild(address);
         companyCard.appendChild(phone);
-        companyCard.appendChild(website);
         companyCard.appendChild(level);
         companyCard.appendChild(area);
+        companyCard.appendChild(website);
         
         // Append to the card
         cards.appendChild(companyCard);
