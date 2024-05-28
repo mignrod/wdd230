@@ -35,5 +35,17 @@
     .sidebar {
         display: grid;
     }
+
+    .grid {
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	    grid-gap: 1.5rem;
+	    align-items: center;
+    }
+
+    .grid section {
+        box-shadow: 0 2px 4px #222;
+    }
     
 }

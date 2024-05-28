@@ -1,5 +1,7 @@
 const url = 'https://mignrod.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('#cards');
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
 
 async function getMembersData() {
     try {
@@ -29,17 +31,18 @@ const displayMemberData = (companies) => {
         const area = document.createElement('p');
         
         // Company Logo
-        // logo.setAttribute('src', `images/${company.icon}`);
         logo.setAttribute('src', company.icon);
         logo.setAttribute('alt', `${company.name} Logo`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '400');
         logo.setAttribute('height', '200');
+        logo.setAttribute('aspect-ratio', '2:1');
 
         // Company details
         name.textContent = company.name;
         address.textContent = company.address;
         phone.textContent = company.phone;
+        website.href = company.weburl;
         website.textContent = company.weburl;
         level.textContent = `${company.memberLevel} Member`;
         area.textContent = `Area: ${company.area}`;
@@ -55,8 +58,20 @@ const displayMemberData = (companies) => {
         
         // Append to the card
         cards.appendChild(companyCard);
+        cards.classList.add('grid');
 
     });
 }
+
+gridbutton.addEventListener('click', () => {
+    cards.classList.add('grid');
+    cards.classList.remove('list');
+    
+});
+
+listbutton.addEventListener('click', () => {
+    cards.classList.add('list');
+    cards.classList.remove('grid');
+});
 
 getMembersData();

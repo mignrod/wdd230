@@ -3,7 +3,7 @@
         {
             "name": "Empresas Polar",
             "address": "Av. Libertador, 28th Street, Industrial Zone I",
-            "phone": 2511234567,
+            "phone": "(58) 251-1234567",
             "weburl": "https://empresaspolar.com/",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/polar.webp",
             "memberLevel": "Gold",
@@ -12,7 +12,7 @@
         {
             "name": "Canguro",
             "address": "26th street 21th Road, CC Cosmos",
-            "phone": 4121247892,
+            "phone": "(58) 412-1247892",
             "weburl": "https://cangurovenezuela.com/",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/canguro.webp",
             "memberLevel": "Gold",
@@ -20,9 +20,9 @@
         },
         {
             "name": "Multimax Store",
-            "address": "Av. Venezuela with Av. Bracamonte and Av. Crispulo Benítez. CC Sambil, East, Barquisimeto 3001",
-            "phone": 4245315264,
-            "weburl": "https://multimaxstore.com/tiendas/multimax-lara/multimax-barquisimeto/",
+            "address": "Av. Venezuela with Av. Bracamonte and Av. Crispulo Benítez. CC Sambil, East.",
+            "phone": "(58) 424-5315264",
+            "weburl": "https://multimaxstore.com",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/multimax.webp",
             "memberLevel": "Silver",
             "area": "Home"
@@ -30,7 +30,7 @@
         {
             "name": "Tealca",
             "address": "Street 14th corner 22th Road.",
-            "phone": 5013684671,
+            "phone": "501-3684671",
             "weburl": "https://www.tealca.com/",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/tealca.webp",
             "memberLevel": "Bronze",
@@ -39,7 +39,7 @@
         {
             "name": "Daka",
             "address": "Av. Venezuela with Av. Bracamonte, East",
-            "phone": 4241234548,
+            "phone": "(58) 424-1234548",
             "weburl": "https://daka.tiendasdaka.com/",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/daka.webp",
             "memberLevel": "Gold",
@@ -48,7 +48,7 @@
         {
             "name": "Size Boutique",
             "address": "6th Street Av Concordia, East",
-            "phone": 4245549408,
+            "phone": "(58) 424-5549408",
             "weburl": "https://www.sizeboutiqueca.com/",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/size.webp",
             "memberLevel": "Silver",
@@ -57,7 +57,7 @@
         {
             "name": "JL Soluciones Tecnologicas",
             "address": "51th Road and 14C Street",
-            "phone": 4245809421,
+            "phone": "(58) 424-5809421",
             "weburl": "https://www.facebook.com/JLSolucionesTecnologicas/",
             "icon": "https://mignrod.github.io/wdd230/chamber/images/jl.webp",
             "memberLevel": "Bronze",

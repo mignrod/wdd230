@@ -418,3 +418,29 @@ aside {
     color: var(--accent3-color);
 }
 
+.grid {
+    display: block;
+    max-width: 400px;
+    margin: 1rem auto 2.5rem auto;
+}
+
+.grid section {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 6px -6px #222;
+}
+
+.grid img {
+    box-sizing: border-box;
+    width: 80%;
+    height: fit-content;
+}
+
+.grid p:first-of-type {
+    display: none;
+}
+
+.grid p {
+    padding: 2px;
+}
