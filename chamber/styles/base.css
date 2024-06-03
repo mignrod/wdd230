@@ -41,7 +41,13 @@ hr {
 
 header img {
     align-self: center;
+    cursor: pointer;
     
+}
+
+header .logo {
+    height: 60px;
+    align-self: center;
 }
 
 button.log {
@@ -50,20 +56,14 @@ button.log {
 
 .log {
     background-color: var(--primary-color);
-    color: var(--background-color);
     border: none;
     font-size: 1rem;
-    cursor: pointer;
-}
-
-.log img {
-    height: 30px;
-    width: 30px;
+    
 }
 
 .social {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     margin-right: 1.5rem;
     align-items: center;
