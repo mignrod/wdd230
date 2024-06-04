@@ -33,10 +33,11 @@ header {
 }
 
 hr {
-    width: 85%;
+    width: 90%;
     border-style: solid;
     border-color: var(--accent1-color);
     margin-bottom: 2rem;
+    margin: auto;
 }
 
 header img {
@@ -236,7 +237,7 @@ footer p {
 }
 
 .container {
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,7 +245,7 @@ footer p {
   
 /* min width and styles */
 .card {
-min-width: 250px;
+min-width: 350px;
 border-radius: 16px;
 box-shadow: 0px 0px 8px 0px var(--secondary-color);
 text-align: center;
@@ -265,37 +266,10 @@ color: var(--accent2-color);
 background-color: var(--background-color);
 }
 
-.container-temperature {
-font-size: 48px;
-margin: 16px;
+.container-temperature, .container-temperature p {
+font-size: 18px;
+margin: 1rem;
 color: var(--primary-color);
-}
-
-.container-toggle-buttons {
-display: flex;
-justify-content: center;
-padding: 32px;
-}
-
-.toggle-button {
-color: dimgray;
-font-weight: 100;
-padding: 4px 8px;
-border: 1px solid dimgray;
-cursor: pointer;
-}
-
-.unit-enabled {
-background-color: var(--background-color);
-cursor: default;
-}
-
-.right-border-none {
-border-right: none;
-}
-
-.left-border {
-border-left: 1px solid dimgray;
 }
 
 .sidebar {
@@ -328,8 +302,6 @@ aside {
     margin: 0.5rem;
     padding: 0.5rem;
 }
-
-
 
 .content img {
     width: 100%;
