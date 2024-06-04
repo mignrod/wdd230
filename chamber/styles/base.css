@@ -99,6 +99,10 @@ ul {
     font-size: 1.2rem;
 }
 
+.links a.active {
+    color: var(--accent3-color);
+}
+
 #hidden-links {
     padding: 0.5rem;
     display: none;
@@ -114,26 +118,44 @@ main {
     text-align: center;
 }
 
+main button {
+    padding: 1rem;
+    border-radius: 20%;
+    background-image: linear-gradient(var(--accent1-color), var(--accent2-color));
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+}
+
+main button:hover {
+    box-shadow: 5px 5px 3rem var(--secondary-color);
+    
+}
+
 .htitle {
     position: relative;
+    margin-bottom: 2rem;
+    
 }
+
 .title {
     position: absolute;
-    top: 150px;
+    top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     margin: auto;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 5vw;
-
+    font-weight: 600;
+    font-size: 4vw;
+    padding-top: 4rem;
+    color: var(--background-color);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #231a1a;
+    
 }
 
-.hero {
-    width: 100%;
-    display: block;
-    margin-bottom: 2rem;
+picture .hero {
+    width: 95%;
+    margin: auto;
 }
 
 .current-events {
