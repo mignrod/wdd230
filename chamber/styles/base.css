@@ -504,3 +504,26 @@ aside {
 .list a:visited::after {
     color: var(--primary-color);
 }
+
+#current-temp {
+    font-weight: bold;
+    font-size: 2rem;
+    color: navy;
+}
+
+#forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 12px;
+    gap: 8px;
+    background-color: var(--background-color);
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    color: var(--primary-color)
+}
+
+#section1 p:nth-child(2), #section2 p:nth-child(2), #section3 p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: navy;
+}
