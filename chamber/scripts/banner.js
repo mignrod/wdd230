@@ -17,10 +17,3 @@ bannerClose.addEventListener('click', () => {
     banner.classList.add('prove');
 
 });
-
-const scrollUp = document.querySelector('#top');
-
-scrollUp.addEventListener('click', () => {
-    window.scrollTo(0, 0);
-
-});
