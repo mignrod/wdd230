@@ -24,7 +24,6 @@ async function forecastFetch() {
         if(response.ok) {
             const dataForecast = await response.json();
             display(dataForecast);
-            console.log(dataForecast);
             
         } else {
             throw Error(await response.text());
