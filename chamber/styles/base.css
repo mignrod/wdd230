@@ -421,9 +421,10 @@ aside {
 }
 
 .form1 textarea {
-    box-sizing: content-box;
+    box-sizing: border-box;
     resize: none;
-
+    width: 100%;
+    
 }
 
 .form1 input[type="checkbox"] {
@@ -431,10 +432,9 @@ aside {
 }
 
 .form1 input[type="submit"] {
-    margin: -1rem 2% 2rem 2%;
+    margin: -1rem 2% 2rem 3%;
     width: 94%;
-    max-width: 400px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 0.8rem;
     border: thin solid #666;
     border-radius: 10px;
