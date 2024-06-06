@@ -1,5 +1,4 @@
 const urlJson = 'https://mignrod.github.io/wdd230/chamber/data/members.json';
-// const events = document.querySelector('.current-events');
 
 async function getData() {
     try {
