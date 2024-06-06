@@ -495,20 +495,22 @@ aside {
 
 .display-buttons {
     letter-spacing: 1rem;
-    
 }
 
 .display-buttons button {
     width: 25px;
     height: 25px;
-    color: black;
     background-color: var(--background-color);
     border: thin solid var(--secondary-color);
     cursor: pointer;
     font-size: large;
+    padding: 0;
     
 }
 
+#grid, #list {
+    text-align: center;
+}
 .list {
     width: 270px;
     margin: auto;
